@@ -5,9 +5,15 @@ Este sistema é a segunda parte do exame de admissão da Sennit. É uma API REST
 
 ## Instalação 
 
+No console, execute os seguintes comandos:
+
 ``git clone https://github.com/giusampaio/api-jsonfile.git``
 
 ``composer install``
+
+``cp -a .env.example .env``
+
+``php artisan key:generate``
 
 ``php artisan serve`` 
 
